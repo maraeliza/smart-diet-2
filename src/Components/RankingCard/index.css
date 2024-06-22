@@ -1,0 +1,45 @@
+.nome{
+    font-size: 30px;
+    font-weight: 700;
+}
+.xp{
+    font-size: 20px;
+    font-weight: 600;
+}
+.data{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.perfilImg{
+    width: 150px;
+    height: 150px;
+}
+.rank{
+    position:absolute;
+    top: 10px;
+    left:40px;
+    font-weight: 800;
+    font-size: 80px;
+    color: #b8880e;
+}
+.card{
+    border-radius: 25px;
+    box-shadow: 0px 1px 10px rgb(169, 168, 168);
+}
+.cardOuro {
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 38%, rgba(255,196,0,1) 100%);
+}
+
+.cardPrata{
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 38%,rgba(180,180,180,1) 100%);
+
+
+}
+.cardBronze{
+
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 38%, rgba(162,128,72,1) 100%);
+}
