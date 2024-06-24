@@ -7,6 +7,7 @@ import Profile from "./Pages/Profile";
 import Progresso from "./Pages/Progresso";
 import Ranking from './Pages/Ranking';
 import Feed from './Pages/Feed';
+import SmartChoices from './Pages/SmartChoices';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
   {
     path: "/progresso",
     element: <Progresso />,
-  },
+  },  
   {
     path: "/ranking",
     element: <Ranking />,
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/feed",
     element: <Feed />,
+  },
+  {
+    path: "/smart-choices",
+    element: <SmartChoices />,
   }
   
 ]);
